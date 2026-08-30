@@ -10,8 +10,13 @@ Construir una aplicación web con Flask que capture datos de un alumno mediante 
 ## Rutas
 | Ruta | Función | Plantilla | Propósito |
 |---|---|---|---|
-| `/` | `inicio()` | index.html | Mostrar formulario |
-| `/saludar` | `f_saludar()` | saludar.html | Guardar y confirmar registro |
-| `/alumnos` | `listar_alumnos()` | listar_alumnos.html | Consultar y mostrar alumnos |
+| /  | inicio() | index.html | Mostrar formulario |
+| /saludar | f_saludar() | saludar.html | Guardar y confirmar registro |
+| /alumnos | listar_alumnos() | listar_alumnos.html | Consultar y mostrar alumnos |
 
 ## Ejecución local
+Ejecutar: python app.py
+Abrir en el navegador: http://127.0.0.1:5000
+
+## Despliegue
+Aplicación publicada en Render: https://practica-02-flaskjingacss-bd-9q74.onrender.com
